@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Week01_exercise_02</string>
+    <string name="title_home">首页</string>
+    <string name="title_cricle">圈子</string>
+    <string name="title_shopping_cart">购物车</string>
+    <string name="title_order">订单</string>
+    <string name="title_mine">我的</string>
+</resources>

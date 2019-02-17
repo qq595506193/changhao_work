@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/ib_btn_left"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/ed_serch"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_serch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="请输入商品名称"
+        android:paddingLeft="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/ib_btn_left"
+        app:layout_constraintLeft_toRightOf="@id/ib_btn_left"
+        app:layout_constraintRight_toLeftOf="@id/tv_serch"
+        app:layout_constraintTop_toTopOf="@id/ib_btn_left" />
+
+
+    <TextView
+        android:id="@+id/tv_serch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="搜索"
+        app:layout_constraintBottom_toBottomOf="@id/ib_btn_left"
+        app:layout_constraintLeft_toRightOf="@id/ed_serch"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/ib_btn_left" />
+
+</android.support.constraint.ConstraintLayout>
